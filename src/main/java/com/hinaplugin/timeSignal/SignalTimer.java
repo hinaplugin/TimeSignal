@@ -9,12 +9,12 @@ import java.util.Calendar;
 import java.util.Locale;
 
 public class SignalTimer extends BukkitRunnable {
-    private final Calendar calendar = Calendar.getInstance(Locale.JAPAN);
     private final MiniMessage miniMessage = MiniMessage.miniMessage();
 
 
     @Override
     public void run() {
+        final Calendar calendar = Calendar.getInstance(Locale.JAPAN);
         final int hour = calendar.get(Calendar.HOUR);
         final int min = calendar.get(Calendar.MINUTE);
         final int sec = calendar.get(Calendar.SECOND);
