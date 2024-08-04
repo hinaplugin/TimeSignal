@@ -43,10 +43,8 @@ time:
   22: ""
   23: ""
 ```
-
-You can use Minimessages.  
   
-〇ColorCode
+### ColorCode
 ```
   <black>
   <dark_blue>
@@ -71,7 +69,7 @@ You can use Minimessages.
   <obfuscated>
   <reset>
 ```
-
+  
 ### Usage
 ```
 <green>Hello!</green> <red>5</red>Hours now.
